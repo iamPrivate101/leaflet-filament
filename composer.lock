@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68c4c64a84d87d601f08a162e8e878ac",
+    "content-hash": "c4930de6ccac28b7a61089816fd11a9b",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -530,6 +530,52 @@
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
             },
             "time": "2022-10-27T11:44:00+00:00"
+        },
+        {
+            "name": "dipesh79/laravel-nepal-address-seeder",
+            "version": "0.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dipesh79/laravel-nepal-address-seeder.git",
+                "reference": "37b20235dc941f8a4b9200e22b10c22e1088d9b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dipesh79/laravel-nepal-address-seeder/zipball/37b20235dc941f8a4b9200e22b10c22e1088d9b6",
+                "reference": "37b20235dc941f8a4b9200e22b10c22e1088d9b6",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dipesh79\\LaravelNepalAddressSeeder\\NepalAddressServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dipesh79\\LaravelNepalAddressSeeder\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dipesh79",
+                    "email": "dipeshkhanal79@gmail.com",
+                    "homepage": "https://www.khanaldipesh.com.np",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Nepal Address Seeder - Get Migration And Seeder For Nepal's Province, Districts And Local Levels.",
+            "support": {
+                "issues": "https://github.com/Dipesh79/laravel-nepal-address-seeder/issues",
+                "source": "https://github.com/Dipesh79/laravel-nepal-address-seeder/tree/0.0.5"
+            },
+            "time": "2024-04-28T11:01:45+00:00"
         },
         {
             "name": "doctrine/cache",
