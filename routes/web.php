@@ -7,4 +7,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', ShowHome::class);
+Route::get('/', ShowHome::class)->name('home');
+Route::get('festival/{district?}', [ShowHome::class, 'festival']);
